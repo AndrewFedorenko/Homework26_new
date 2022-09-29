@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xml>
+    <package name="ua.levelup"/>
+    <type name = "Configuration" access_modifier="public">
+        <field name = "id" type="long"/>
+        <field name = "title" type="String"/>
+        <method name ="main" access_modifier="public" type="static" return_type="void">
+            <params>
+                <param name="args" type="String" isArray="T"/>
+            </params>
+            <body>
+                <statament>
+                    <operation variable="id" value="10"/>
+                </statament>
+                <statament>
+                    <operation variable="title" value="&quot;Result is &quot;" />
+                </statament>
+                <statament>
+                    <systemprint arg="title,id"/>
+                </statament>
+            </body>
+        </method>
+    </type>
+</xml>
